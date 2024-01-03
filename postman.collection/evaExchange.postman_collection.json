@@ -1,0 +1,46 @@
+{
+	"info": {
+		"_postman_id": "2bd0a514-0f5f-4db4-81e0-b5fb0a96fe7d",
+		"name": "evaExchange",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "20044332"
+	},
+	"item": [
+		{
+			"name": "sell",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"clientId\": 1,\r\n    \"shareId\": 1,\r\n    \"quantity\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:5000/api/transaction/sell"
+			},
+			"response": []
+		},
+		{
+			"name": "buy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"clientId\": 1,\r\n    \"shareId\": 1,\r\n    \"quantity\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:5000/api/transaction/buy"
+			},
+			"response": []
+		}
+	]
+}
